@@ -23,7 +23,7 @@ jobs:
           java-version: '11'
 
       - name: Build and run Karate tests with Maven
-        run: mvn clean test -Dtest=E2ERunner
+        run: mvn test -Dtest=E2ERunner
 
       - name: Upload Karate HTML Report
         if: always()
