@@ -7,6 +7,7 @@ Feature: Consulta de usuarios
     * url urlApi = 'https://fakestoreapi.com'
     * string method = 'GET'
     * def random = function(){ var temp = ''; karate.repeat(1, function(){ temp += Math.floor(Math.random() * 10) + 1 }); return temp; }
+    * configure headers = { User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', Accept: '*/*' }
 
   @getUser
   Scenario: Obtener producto

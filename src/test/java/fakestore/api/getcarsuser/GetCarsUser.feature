@@ -8,6 +8,7 @@ Feature: Consulta de carrito
     * url urlApi = 'https://fakestoreapi.com'
     * string method = 'GET'
     * def random = function(){ return Math.floor(Math.random() * 7) + 1; }
+    * configure headers = { User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', Accept: '*/*' }
 
   Scenario: Obtener informacion de carrito de compras
 

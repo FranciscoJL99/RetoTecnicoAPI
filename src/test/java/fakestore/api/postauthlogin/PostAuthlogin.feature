@@ -7,6 +7,7 @@ Feature: Autenticacion de Usuarios
     * string apiPath = '/auth/login'
     * url urlApi = 'https://fakestoreapi.com'
     * string method = 'post'
+    * configure headers = { User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', Accept: '*/*' }
 
   #Dado que tengo un usuario registrado
   #Cuando intento iniciar sesión con credenciales correctas

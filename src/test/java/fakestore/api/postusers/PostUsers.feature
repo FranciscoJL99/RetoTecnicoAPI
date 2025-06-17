@@ -9,6 +9,7 @@ Feature: Creacion de Usuarios
     * path apiPath
     * string method = 'POST'
     * def FakeData = Java.type('fakestore.api.utils.FakeDataGenerator')
+    * configure headers = { User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', Accept: '*/*' }
 
   #Dado un usuario que requiere ser creado
   #Cuando se ingresa los datos del usuario
