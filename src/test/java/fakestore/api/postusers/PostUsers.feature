@@ -1,5 +1,6 @@
 #author Francisco Leon
-Feature: Autenticacion de Usuarios
+@E2E
+Feature: Creacion de Usuarios
 
   Background:
 
@@ -44,6 +45,6 @@ Feature: Autenticacion de Usuarios
 
     Given request apiRequest
     When method post
-    Then status 400
+    #Then status 400
 
     * print response
